@@ -1,0 +1,22 @@
+{
+  "name": "custom-theme",
+  "displayName": "Kamfer Theme",
+  "description": "My custom dark theme",
+  "version": "1.0.0",
+  "publisher": "DaviAlcanfor",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Custom Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/custom-theme-color-theme.json"
+      }
+    ]
+  }
+}
