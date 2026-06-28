@@ -1,0 +1,169 @@
+{
+  "name": "Kamfer",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#23272D",
+    "editor.foreground": "#BCBBC7",
+    "editorLineNumber.foreground": "#4a4f5a",
+    "editorLineNumber.activeForeground": "#778866",
+    "editor.selectionBackground": "#3a3f4a",
+    "editor.lineHighlightBackground": "#2a2e35",
+    "editorCursor.foreground": "#BCBBC7",
+    "activityBar.background": "#1e2228",
+    "sideBar.background": "#1e2228",
+    "statusBar.background": "#1e2228",
+    "titleBar.activeBackground": "#1e2228"
+  },
+  "tokenColors": [
+    {
+      "name": "Keywords (def, if, return, else, for, while, class, import, global)",
+      "scope": [
+        "keyword",
+        "keyword.control",
+        "keyword.control.import",
+        "keyword.control.flow",
+        "keyword.control.return",
+        "keyword.control.conditional",
+        "keyword.control.loop",
+        "keyword.control.except",
+        "keyword.control.try",
+        "keyword.other",
+        "storage.type",
+        "storage.type.function",
+        "storage.modifier"
+      ],
+      "settings": {
+        "foreground": "#A66DC4"
+      }
+    },
+    {
+      "name": "Function names",
+      "scope": [
+        "entity.name.function",
+        "meta.function-call.generic",
+        "support.function"
+      ],
+      "settings": {
+        "foreground": "#C1B77E"
+      }
+    },
+    {
+      "name": "Function arguments / parameters",
+      "scope": [
+        "variable.parameter",
+        "meta.function.parameters"
+      ],
+      "settings": {
+        "foreground": "#1D736A"
+      }
+    },
+    {
+      "name": "Constants / numbers",
+      "scope": [
+        "constant.numeric",
+        "constant.language.numeric"
+      ],
+      "settings": {
+        "foreground": "#D4A050"
+      }
+    },
+    {
+      "name": "__name__, __file__ dunder variables",
+      "scope": [
+        "variable.language",
+        "support.variable.magic"
+      ],
+      "settings": {
+        "foreground": "#29A392"
+      }
+    },
+    {
+      "name": "True, False, None",
+      "scope": [
+        "constant.language",
+        "constant.language.boolean"
+      ],
+      "settings": {
+        "foreground": "#B36059"
+      }
+    },
+    {
+      "name": "Operators and escape sequences (+ \\n etc)",
+      "scope": [
+        "keyword.operator",
+        "constant.character.escape"
+      ],
+      "settings": {
+        "foreground": "#864D46"
+      }
+    },
+    {
+      "name": "f-strings and b-strings prefix",
+      "scope": [
+        "string.interpolated",
+        "meta.fstring",
+        "string.quoted.double.block",
+        "storage.type.string"
+      ],
+      "settings": {
+        "foreground": "#9B5BAD"
+      }
+    },
+    {
+      "name": "Regular strings",
+      "scope": [
+        "string",
+        "string.quoted.single",
+        "string.quoted.double"
+      ],
+      "settings": {
+        "foreground": "#8FBA85"
+      }
+    },
+    {
+      "name": "Variables / identifiers",
+      "scope": [
+        "variable",
+        "variable.other",
+        "variable.other.readwrite",
+        "variable.other.object",
+        "meta.definition.variable"
+      ],
+      "settings": {
+        "foreground": "#BCBBC7"
+      }
+    },
+    {
+      "name": "Class names",
+      "scope": [
+        "entity.name.class",
+        "entity.name.type.class"
+      ],
+      "settings": {
+        "foreground": "#D4A050"
+      }
+    },
+    {
+      "name": "Comments",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#4a5260",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Punctuation and brackets",
+      "scope": [
+        "punctuation",
+        "meta.brace",
+        "punctuation.definition.arguments"
+      ],
+      "settings": {
+        "foreground": "#8a8fa8"
+      }
+    }
+  ]
+}
