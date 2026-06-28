@@ -4,7 +4,7 @@ My personal configuration files for Vim and VSCode, running on Manjaro Linux (WS
 
 <br>
 
-## My custom VSCode theme (Kamfer Theme - cool name right?)
+## My custom VSCode theme (Kamfer Theme)
 
 **Install:**
 
